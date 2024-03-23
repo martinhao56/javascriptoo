@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Declaração</title>
+    <title>Reutilização de códigos</title>
 </head>
  
 <body>
@@ -12,8 +12,10 @@
  
     <script src="forma.js"></script>
     <script src="quadrado.js"></script>
+    <script src="quadrado-colorido.js"></script>
+    <script src="retangulo.js"></script>
     <script>
-        const forma = new Quadrado(15);
+        const forma = new Retangulo(10,15);
        // const forma = new Forma("forma abstrata");
         //const forma = new Forma();
         document.getElementById('btnImprimir').addEventListener('click', function () {
